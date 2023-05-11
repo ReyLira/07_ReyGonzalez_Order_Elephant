@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    #url: jdbc:postgresql://localhost:5432/postgres
+    #username: postgres
+    #password: root
+    url: jdbc:postgresql://mahmud.db.elephantsql.com:5432/sqheeonp
+    username: sqheeonp
+    password: ORiwjSds7aWZucR9aJunhsq1_10X43yh
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8001
+
